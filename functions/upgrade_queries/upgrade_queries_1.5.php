@@ -11,4 +11,4 @@ $upgrade_queries["1.5.26"][] = "UPDATE `settings` set `dbversion` = '26';";
 
 $upgrade_queries["1.5.27"][] = "ALTER TABLE `subnets` ADD `DNSforward` TINYINT(1)  NULL  DEFAULT '0';";
 $upgrade_queries["1.5.27"][] = "-- Database version bump";
-$upgrade_queries["1.5.27"][] = "UPDATE `settings` set `dbversion` = '26';";
+$upgrade_queries["1.5.27"][] = "UPDATE `settings` set `dbversion` = '27';";
