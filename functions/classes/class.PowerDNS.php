@@ -1577,7 +1577,6 @@ class PowerDNS extends Common_functions {
         }
 
 
-        $this->Result->show("danger", _("Error: ").$query_fwd.print_r($params, TRUE));
         // execute
         try {
           if ($delete_forward) {
