@@ -278,8 +278,6 @@ $(document).ready(function() {
 	</td>
 </tr>
 
-<!-- dHCP -->
-<!--
 <tr>
 	<td class="title"><?php print _('Enable DHCP'); ?></td>
 	<td>
@@ -289,7 +287,6 @@ $(document).ready(function() {
 		<?php print _('Enable or disable DHCP module'); ?>
 	</td>
 </tr>
--->
 
 <!-- firewall zone management -->
 <tr>
